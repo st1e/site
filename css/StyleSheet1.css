@@ -1,0 +1,61 @@
+﻿header
+{
+	background-image: url("images/img4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+
+.logo-link
+{
+	display: flex;
+	align-items: center;
+}
+
+.logotype
+{
+	height: 100px;
+	width: auto;
+}
+		
+.logotype:hover 
+{
+	transform: scale(1.1); 
+}
+
+body
+{
+	background-color: #141414;
+}
+
+.btn 
+{
+	color: #c2bfd2;
+	background-color: rgba(20, 20, 20, 0.75);
+	border: 1px solid #4c4370; 
+	padding: 10px 20px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+		
+.btn:hover 
+{
+	background-color: #655d85; 
+}
+
+nav a 
+{
+	color: ; 
+	text-decoration: none;
+}
+
+nav a:hover 
+{
+	color: ;
+}
