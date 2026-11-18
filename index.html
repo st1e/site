@@ -42,6 +42,19 @@
 			background-color: #141414;
 		}
 
+		.container {
+		display: flex;
+		gap: 20px;
+		}
+
+		main {
+			flex:1;
+		}
+
+		aside {
+			width: 300px;
+		}
+
 		.btn 
 		{
 			color: #c2bfd2;
@@ -87,8 +100,8 @@
 		<a href="" class="btn"> Записаться на сеанс </a>
 	</header>
 
-	<main>
-		<aside>
+<div class="container">	
+	<aside>
 			<nav>
 				<p>Быстрые гадания</p>
 					<ul>
@@ -106,19 +119,21 @@
 				<a href=""> Оставить отзыв </a>
 				
 			</nav>
-		</aside>
+	</aside>
+	
+	<main>
+		
 
 		<section class="serv">
 			
 		</section>
 	</main>
+</div>	
 
 	<footer>
-		пр. Науки, 21т, Санкт-Петербург
-		Безымянный пр., 6, Москва
-		Телефон: 8 (800) 555 35 35
+		<p> пр. Науки, 21т, Санкт-Петербург <br> Безымянный пр., 6, Москва <br> Телефон: 8 (800) 555 35 35 </p>
 
-		ООО «Геката»
+		<p>ООО «Геката» </p>
 	</footer>
 </body>
 </html>
